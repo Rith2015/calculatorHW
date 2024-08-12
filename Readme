@@ -1,0 +1,31 @@
+Calculator Project
+Overview
+This is a simple web-based calculator built with HTML, CSS, and JavaScript. The calculator supports basic arithmetic operations like addition, subtraction, multiplication, and division.
+
+Features
+Basic Arithmetic: Perform addition, subtraction, multiplication, and division.
+Responsive Design: The calculator is styled to look good on both desktop and mobile devices.
+Clear Input: A clear button is available to reset the input field.
+Multiple Operations: The calculator allows chaining operations with proper order of execution.
+Technologies Used
+HTML5: Structure of the calculator interface.
+CSS3: Styling and layout for a better user experience.
+JavaScript: Core functionality for performing calculations and handling user input.
+Installation
+Clone the Repository:
+bash
+Copy code
+git clone https://github.com/yourusername/calculator-project.git
+
+Launch the Calculator:
+Use the number buttons to enter your desired numbers.
+Click the operation buttons (e.g., +, -, *, /) to choose the operation.
+Click the = button to get the result.
+Use the C button to clear the input field.
+Code Explanation
+JavaScript Functions:
+SetN(operator): Sets the current operation.
+calculate(): Computes the result based on the selected operation.
+clearNum(): Clears the input field.
+Number functions (e.g., seven(), eight()): Append the respective number to the input field.
+clearFlag: Used to manage when the input field should be cleared (e.g., after a result is displayed).
